@@ -19,13 +19,13 @@ public class Ejemplo2 {
         int[] informacion = {10, 20, 30, 40, 50, 100};
         int valorBuscar = 30;
         boolean bandera = buscarDato(informacion, valorBuscar); // falso
-        
+
         if (bandera) { // bandera==true
             System.out.printf("El valor %d fue encontrado\n", valorBuscar);
         } else {
             System.out.printf("El valor %d no fue encontrado\n", valorBuscar);
         }
-
+        
     }
 
     public static boolean buscarDato(int[] datos, int datoBuscar) {
@@ -43,6 +43,7 @@ public class Ejemplo2 {
             }
         }
         return valor;
+        // Es un proceso de busquedas
     }
 
 }
